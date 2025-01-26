@@ -1,0 +1,115 @@
+body {
+    font-family: "Arial", sans-serif;
+    direction: rtl;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2C3E50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #2C3E50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    background-color: #3498DB;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980B9;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.form-item {
+    margin-bottom: 20px;
+}
+
+label {
+    text-align: right;
+}
+
+form {
+    text-align: right;
+}
+
+#classForm {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-right: 570px;
+}
+
+.student-entry {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.student-entry label {
+    width: 150px;
+    text-align: right;
+}
+
+.student-entry input {
+    width: 200px;
+    margin: 0 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #3498DB;
+    color: white;
+}
+
+.actions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.actions button {
+    margin: 10px;
+    background-color: #3498DB;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.actions button:hover {
+    background-color: #2980B9;
+}
+
